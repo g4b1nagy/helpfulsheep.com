@@ -1,0 +1,367 @@
+/* =======================================================================
+ * Global
+ * ======================================================================= */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* margin bottom by footer height */
+  margin-bottom: 80px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #4b4b4b;
+  background-color: #fff;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+#disqus_thread {
+  margin-top: 60px;
+}
+
+/* =======================================================================
+ * Header
+ * ======================================================================= */
+
+#site-header {
+  padding: 45px 0 75px;
+  background: #95c55f url("../img/background.png") no-repeat 30px 30px;
+}
+
+#site-header img {
+  position: absolute;
+}
+
+#site-header h1 {
+  margin-bottom: 7px;
+  padding-top: 13px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#site-header ul {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+#site-header li {
+  display: inline;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+#site-header a {
+  color: #333;
+}
+
+#site-header a:hover {
+  color: #111;
+}
+
+/* =======================================================================
+ * Main
+ * ======================================================================= */
+
+main.container {
+  margin: 20px auto 169px auto;
+}
+
+.category {
+  margin: 50px 0 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+article {
+  padding: 11px 0 24px 0;
+  border-bottom: 1px solid #eee;
+}
+
+article h2 {
+  margin-bottom: 7px;
+  font-size: 1.7em;
+}
+
+article h2 a {
+  color: #666;
+}
+
+article h2 a:hover {
+  color: #888;
+}
+
+article h2 a:visited {
+  color: #aaa;
+}
+
+article .article-meta {
+  margin: 0 0 23px;
+  font-size: 0.85em;
+  color: #888;
+}
+
+article a {
+  color: #7baf40;
+}
+
+article a:hover {
+  color: #95c55f;
+}
+
+article p {
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+article p a:visited {
+  color: #aaa;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  margin: 25px auto;
+}
+
+article .caption {
+  margin: -10px 0 25px;
+  font-style: italic;
+  color: #888;
+  text-align: center;
+}
+
+/* =======================================================================
+ * Pagination
+ * ======================================================================= */
+
+#site-pagination {
+  position: relative;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+  text-align: center;
+}
+
+#site-pagination a {
+  padding: 7px 15px;
+  color: #888;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+}
+
+#site-pagination a:hover {
+  border-color: #bbb;
+}
+
+#site-pagination .prev {
+  position: absolute;
+  left: 0;
+}
+
+#site-pagination span {
+  display: inline-block;
+  padding-top: 9px;
+}
+
+#site-pagination .next {
+  position: absolute;
+  right: 0;
+}
+
+/* =======================================================================
+ * Footer
+ * ======================================================================= */
+
+#site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* footer height */
+  height: 80px;
+  color: #a4a4a4;
+  background-color: #444;
+}
+
+#site-footer p {
+  margin: 30px 0 0;
+}
+
+/* =======================================================================
+ * Helpers
+ * ======================================================================= */
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Night mode
+ * ======================================================================= */
+
+/*
+
+#site-header {
+  background: #00425a url("../img/background-night.png") no-repeat 30px 24px;
+}
+
+#site-header a {
+  color: #eee;
+}
+
+#site-header a:hover {
+  color: #ccc;
+}
+
+article a {
+  color: #00678d;
+}
+
+article a:hover {
+  color: #0080af;
+}
+
+*/
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
+
+
+
+/* =======================================================================
+ * Media queries
+ * ======================================================================= */
+
+/* targets xs */
+@media (max-width: 767px) {
+
+  .container {
+    width: auto;
+    padding: 0 15px;
+  }
+
+  #site-header {
+    padding: 35px 0 55px;
+    background-image: none;
+  }
+
+  #site-header img {
+    position: static;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #site-header h1 {
+    padding-top: 0;
+  }
+
+}
+
+/* excludes xs */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* targets sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/* excludes xs, sm */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* targets md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+
+/* targets lg */
+@media (min-width: 1200px) {
+
+
+
+}
+
+@media print {
+
+
+
+}
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
