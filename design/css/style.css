@@ -229,8 +229,7 @@ article img {
 article .img-half {
   display: inline;
   width: 48%;
-  margin: 10px 0 6px 0;
-  padding-right: 2%;
+  margin: 4px 2% 4px 0;
 }
 
 article .caption {
