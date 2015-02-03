@@ -46,6 +46,13 @@ a {
   height: 100%;
 }
 
+code {
+  padding: 3px 5px;
+  font-size: 0.85em;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
 
 .code {
   width: 100%;
@@ -54,11 +61,45 @@ a {
 }
 
 .highlighttable {
-  background-color: #272822;
+  font-size: 0.85em;
+  line-height: 1.45em;
+  background-color: #202020;
+  border-radius: 3px;
+}
+
+.highlight {
+  background-color: #202020;
 }
 
 .highlighttable td:first-child {
-  /*padding: 0 20px;*/
+  padding: 5px 20px;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0;
+  border-left: 5px solid #eee;
+}
+
+blockquote p {
+  margin: 0;
+  color: #888;
+  font-style: italic;
+}
+
+blockquote footer {
+  margin: 10px 0 3px;
+  color: #888;
+  font-size: 0.85em;
+}
+
+blockquote footer:before {
+  content: "\2013\0020";
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
 }
 
 
@@ -192,7 +233,7 @@ article .img-half {
 }
 
 article .caption {
-  margin: -10px 0 25px;
+  margin: -13px 0 25px;
   font-style: italic;
   color: #888;
   text-align: center;
