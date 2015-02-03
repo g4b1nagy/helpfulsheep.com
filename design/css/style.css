@@ -30,7 +30,7 @@ a {
   margin-top: 60px;
 }
 
-.video {
+.video-container {
   position: relative;
   height: 0;
   padding-top: 25px;
@@ -38,7 +38,7 @@ a {
   padding-bottom: 56.25%;
 }
 
-.video iframe {
+.video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -54,13 +54,14 @@ code {
   border-radius: 3px;
 }
 
-.code {
+.code-container {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
 .highlighttable {
+  width: 100%;
   font-size: 0.85em;
   line-height: 1.45em;
   background-color: #202020;
