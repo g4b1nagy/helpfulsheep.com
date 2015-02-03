@@ -1,0 +1,48 @@
+/* =======================================================================
+ * Colors
+ * ======================================================================= */
+
+@helpful-color:                     #95c55f;
+
+@text-color:                        #4b4b4b;
+@text-light-color:                  #888;
+
+@header-link-color:                 #333;
+@header-link-hover-color:           darken(@header-link-color, 13.5%);
+
+@heading-color:                     #666;
+@heading-link-color:                @heading-color;
+@heading-link-hover-color:          lighten(@heading-color, 13.5%);
+
+@link-color:                        darken(@helpful-color, 10%);
+@link-hover-color:                  @helpful-color;
+
+@border-color:                      #eee;
+
+/* =======================================================================
+ * Others
+ * ======================================================================= */
+
+@code-font-size:                    0.85em;
+@border-radius:                     3px;
+
+/* =======================================================================
+ * Mixins
+ * ======================================================================= */
+
+#up-down-margin(@extra) {
+  margin-top: 30px - @extra;
+  margin-bottom: 30px - @extra;
+}
+
+#color-ease() {
+  transition: color ease 0.2s;
+}
+
+#border-ease() {
+  transition: border ease 0.2s;
+}
+
+/* =======================================================================
+ * Section
+ * ======================================================================= */
