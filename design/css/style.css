@@ -131,11 +131,12 @@ article {
 
 .article-single h1 {
   margin-bottom: 32px;
-  /*color: #4b4b4b;*/
+  color: #4b4b4b;
 }
 
-article header h1,
-article header h2 {
+article h1,
+article h2,
+article h3 {
   color: #666;
 }
 
