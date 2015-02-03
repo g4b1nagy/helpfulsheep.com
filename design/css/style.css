@@ -74,8 +74,9 @@ a {
  * Main
  * ======================================================================= */
 
+
 main.container {
-  margin: 20px auto 169px auto;
+  margin: 52px auto 170px auto;
 }
 
 .category {
@@ -85,8 +86,24 @@ main.container {
 }
 
 article {
-  padding: 11px 0 24px 0;
+  margin-top: 32px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #eee;
+}
+
+.article-single {
+  padding-bottom: 0;
+  border: 0;
+}
+
+.article-single h1 {
+  margin-bottom: 32px;
+  /*color: #4b4b4b;*/
+}
+
+article header h1,
+article header h2 {
+  color: #666;
 }
 
 article h2 {
@@ -100,10 +117,6 @@ article h2 a {
 
 article h2 a:hover {
   color: #888;
-}
-
-article h2 a:visited {
-  color: #aaa;
 }
 
 article .article-meta {
@@ -148,6 +161,7 @@ article .caption {
 
 #site-pagination {
   position: relative;
+  height: 36px;
   margin-top: 40px;
   font-size: 0.9em;
   color: #888;
