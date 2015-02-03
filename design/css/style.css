@@ -64,6 +64,7 @@ a {
 
 #site-header a {
   color: #333;
+  transition: color ease .2s;
 }
 
 #site-header a:hover {
@@ -113,6 +114,7 @@ article h2 {
 
 article h2 a {
   color: #666;
+  transition: color ease .2s;
 }
 
 article h2 a:hover {
@@ -127,6 +129,7 @@ article .article-meta {
 
 article a {
   color: #7baf40;
+  transition: color ease .2s;
 }
 
 article a:hover {
@@ -173,6 +176,7 @@ article .caption {
   color: #888;
   border: 2px solid #ddd;
   border-radius: 50px;
+  transition: border ease .2s;
 }
 
 #site-pagination a:hover {
