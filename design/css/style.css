@@ -132,12 +132,13 @@ article .img-full {
   margin-bottom: 30px;
 }
 article .img-container {
-  margin-top: 26px;
-  margin-bottom: 26px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 0;
 }
 article .img-container img {
   width: 48%;
-  margin: 4px 1.5% 4px 0;
+  margin: 6px 2% 6px 0;
 }
 article .caption {
   margin: -15px 0 30px;
