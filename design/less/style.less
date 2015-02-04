@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  /* margin bottom by footer height */
+  /* margin-bottom by footer height */
   margin-bottom: 80px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: @text-color;
   background-color: #fff;
@@ -60,7 +60,7 @@ h4 {
 
   ul {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
     text-align: center;
   }
 
@@ -72,13 +72,11 @@ h4 {
 
   a {
     color: @header-link-color;
-    #color-ease;
   }
 
   a:hover {
     color: @header-link-hover-color;
   }
-
 }
 
 /* =======================================================================
@@ -95,8 +93,6 @@ article {
   border-bottom: 1px solid @border-color;
 
   header {
-
-
     /* article title tags */
     h1,
     h2 {
@@ -106,7 +102,6 @@ article {
     h2 {
       font-size: 1.7em;
     }
-
   }
 
   h1 a,
@@ -114,7 +109,6 @@ article {
   h3 a,
   h4 a {
     color: @heading-link-color;
-    #color-ease;
   }
 
   h1 a:hover,
@@ -131,7 +125,7 @@ article {
   }
 
   p {
-    line-height: 1.5em;
+    line-height: 1.5;
     text-align: justify;
   }
 
@@ -146,19 +140,16 @@ article {
   .img-full {
     display: block;
     max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     #up-down-margin(0);
   }
 
   .img-container {
     #up-down-margin(4px);
-
     img {
       width: 48%;
       margin: 4px 2% 4px 0;
     }
-
   }
 
   .caption {
@@ -167,12 +158,12 @@ article {
     color: @text-light-color;
     text-align: center;
   }
-
 }
 
 main .category {
   margin: 50px 0 10px;
   padding-bottom: 20px;
+  color: @text-color;
   border-bottom: 1px solid @border-color;
 }
 
@@ -182,9 +173,8 @@ main .category {
 
   h1 {
     margin-bottom: 32px;
-    color: #4b4b4b;
+    color: @text-color;
   }
-
 }
 
 /* =======================================================================
@@ -225,7 +215,6 @@ main .category {
     position: absolute;
     right: 0;
   }
-
 }
 
 /* =======================================================================
@@ -244,7 +233,6 @@ main .category {
   p {
     margin: 30px 0 0;
   }
-
 }
 
 /* =======================================================================
@@ -271,7 +259,7 @@ code {
   .highlighttable {
     width: 100%;
     font-size: @code-font-size;
-    line-height: 1.45em;
+    line-height: 1.45;
     background-color: #202020;
     border-radius: @border-radius;
   }
@@ -283,16 +271,15 @@ code {
   .highlighttable td:first-child {
     padding: 5px 20px;
   }
-
 }
 
 .video-container {
   position: relative;
   height: 0;
+  #up-down-margin(0);
   padding-top: 25px;
   /* 16:9 */
   padding-bottom: 56.25%;
-  #up-down-margin(0);
 
   iframe {
     position: absolute;
@@ -301,30 +288,27 @@ code {
     width: 100%;
     height: 100%;
   }
-
 }
 
 blockquote {
-  padding: 10px 20px;
   margin: 0;
+  padding: 10px 20px;
+  color: @text-light-color;
   border-left: 5px solid @border-color;
 
   p {
     margin: 0;
-    color: @text-light-color;
     font-style: italic;
   }
 
   footer {
     margin: 10px 0 3px;
-    color: @text-light-color;
     font-size: 0.85em;
   }
 
   footer:before {
     content: "\2013\0020";
   }
-
 }
 
 hr {
@@ -332,49 +316,38 @@ hr {
   border-bottom: 1px solid #ddd;
 }
 
-
 /* =======================================================================
  * Night mode
  * ======================================================================= */
 
-/*
+// @helpful-color:                     #00425a;
+// @header-link-color:                 #eee;
 
-@helpful-color: #00425a;
-@header-link-color: #eee;
+// #site-header {
+//   background: @helpful-color url("../img/background-night.png") no-repeat center 24px;
 
-#site-header {
-  background: @helpful-color url("../img/background-night.png") no-repeat center 24px;
+//   a {
+//     color: @header-link-color;
+//   }
 
-  a {
-    color: @header-link-color;
-  }
+//   a:hover {
+//     color: @header-link-hover-color;
+//   }
+// }
 
-  a:hover {
-    color: @header-link-hover-color;
-  }
+// a {
+//   color: lighten(@helpful-color, 10%);
+// }
 
-}
-
-a {
-  color: lighten(@helpful-color, 10%);
-}
-
-a:hover {
-  color: lighten(@helpful-color, 20%);
-}
-
-*/
-
-
-
+// a:hover {
+//   color: lighten(@helpful-color, 20%);
+// }
 
 /* =======================================================================
  * Media queries
  * ======================================================================= */
 
-/* targets xs */
 @media (max-width: 767px) {
-
   .container {
     width: auto;
     padding: 0 15px;
@@ -393,9 +366,7 @@ a:hover {
     h1 {
       padding-top: 0;
     }
-
   }
-
 }
 
 /* =======================================================================
