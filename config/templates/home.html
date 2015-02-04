@@ -1,0 +1,14 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+      {% include "partials/posts.html" %}
+      <nav id="site-pagination">
+        {% if prev_page %}
+          <a class="prev" href="{{ prev_page }}">&larr; Prev</a>
+        {% endif %}
+        <span>Page {{ current_page }} of {{ page_count }}</span>
+        {% if next_page %}
+          <a class="next" href="{{ next_page }}">Next &rarr;</a>
+        {% endif %}
+      </nav>
+{% endblock %}

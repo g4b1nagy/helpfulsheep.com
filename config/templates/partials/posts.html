@@ -1,0 +1,17 @@
+{% for post in posts %}
+      <article>
+        <header>
+          <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
+          <div class="article-meta">
+            <time datetime="{{ post.date.strftime('%Y-%m-%d %H:%M') }}">{{ post.date.strftime('%d %b %Y') }}</time>
+            {% if post.categories %}
+              in
+              {% for category in post.categories %}
+                <a href="{{ category.link }}">{{ category.name|capitalize }}</a>{%- if not loop.last -%},{% endif %}
+              {% endfor %}
+            {% endif %}
+          </div>
+        </header>
+        {{ post.excerpt }}
+      </article>
+{% endfor %}

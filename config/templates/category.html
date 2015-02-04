@@ -1,0 +1,9 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+      <h1 class="category">in {{ category|capitalize }}</h1>
+      {% include "partials/posts.html" %}
+      <nav id="site-pagination">
+        <span>Page 1 of 1</span>
+      </nav>
+{% endblock %}
