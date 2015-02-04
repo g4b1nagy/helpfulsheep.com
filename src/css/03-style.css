@@ -49,7 +49,7 @@ h4 {
  * ======================================================================= */
 #site-header {
   padding: 45px 0 75px;
-  background: #95c55f url("../img/background.png") no-repeat center 30px;
+  background: #95c55f url("/assets/background.png") no-repeat center 30px;
 }
 #site-header img {
   position: absolute;
