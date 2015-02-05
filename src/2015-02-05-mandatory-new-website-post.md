@@ -32,7 +32,7 @@ Now before I pat myself on the back and shake my hand vigorously, allow me to wa
 
 * run every png image on the site through [tinypng.com](https://tinypng.com/)
 
-It might now seem like much, but they all add up. And with more and more people surfing the web via smartphone, these numbers really matter.
+It might not seem like much, but they all add up. And with more and more people surfing the web via smartphone, these numbers really matter.
 
 Here's to a better experience on the web and less excuses to write out new posts!
 
