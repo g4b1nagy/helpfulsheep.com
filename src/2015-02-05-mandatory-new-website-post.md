@@ -10,7 +10,7 @@ template: post.html
 title: !!python/unicode 'Mandatory new website post'
 ===========================================================================
 
-It's been 3 years, 3 months and 28 days since this site first went online on 8 Oct 2011. But until today, you couldn't have told by looking at [helpfulsheep.com](http://helpfulsheep.com/). 92,191 pageviews later and my website was still the same olf badly put together WordPress powered fart.
+It's been 3 years, 3 months and 28 days since this site first went online on 8 Oct 2011. But until today, you couldn't have told by looking at [helpfulsheep.com](http://helpfulsheep.com/). 92,191 pageviews later and my website was still the same old badly put together WordPress powered fart.
 
 I knew I had to update it. I had started working on it at least 3 times in the past. Luckily, a few days ago I finally snapped and now it's finally done :)
 
