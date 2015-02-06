@@ -21,4 +21,4 @@ An avid GNU/Linux user, I'm very fluent in Python and JavaScript. I love writing
 
 If you're still not sure, feel free to go over to my
 
-[`GitHub page`](https://github.com/g4b1nagy/) or just [`drop me a line`](mailto:gabi@helpfulsheep.com)
+[`GitHub page`](https://github.com/g4b1nagy/) or just <a id="email" href="mailto:gabi_screw_your_spam@helpfulsheep.com"><code>drop me a line</code></a>

@@ -1,5 +1,5 @@
 /* =======================================================================
- * Section
+ * Nighttime... daytime!
  * ======================================================================= */
 
 function nightMode() {
@@ -17,6 +17,11 @@ function dayMode() {
   document.querySelector('link[rel=icon]').href = '/assets/icon.ico';
 }
 
+var date = new Date();
+if (date.getHours() >= 21 || date.getHours() <= 6) {
+  nightMode();
+}
+
 document.getElementById('site-header').onclick = function(event) {
   if (event.target.id != 'site-header') {
     return;
@@ -28,10 +33,18 @@ document.getElementById('site-header').onclick = function(event) {
   }
 }
 
-var date = new Date();
-if (date.getHours() >= 21 || date.getHours() <= 6) {
-  nightMode();
+/* =======================================================================
+ * Unmangle email
+ * ======================================================================= */
+
+var email = document.getElementById('email');
+if (email != null) {
+  email.href = email.href.substr(0, 11) + email.href.substr(27);
 }
+
+/* =======================================================================
+ * Console conspiracy
+ * ======================================================================= */
 
 console.error('GET http://a.life.com/');
 console.log('');
@@ -39,18 +52,6 @@ console.log("Just kidding. I love snooping into people's websites as well :)");
 console.log("Here's a cat for your effort: http://youtu.be/A67OAOyJ9Dk");
 console.log('');
 console.log('Have a good one!');
-
-/* =======================================================================
- * Section
- * ======================================================================= */
-
-
-
-/* =======================================================================
- * Section
- * ======================================================================= */
-
-
 
 /* =======================================================================
  * Section
