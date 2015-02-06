@@ -23,7 +23,7 @@ I've got a degree in computer science and a certificate in electric guitar. Some
 
 I'm quite user-friendly, so if you've got anything on your mind, feel free to drop me a line or two. You can get in touch on
 
-[`Email`](mailto:gabi@helpfulsheep.com) [`Facebook`](https://www.facebook.com/g4b1nagy) [`GitHub`](https://github.com/g4b1nagy/) [`Planet Earth`](https://goo.gl/maps/wlXAT)
+[`Email`](mailto:gabi@helpfulsheep.com) [`Facebook`](https://www.facebook.com/g4b1nagy) [`GitHub`](https://github.com/g4b1nagy/) [`Planet Earth`](https://goo.gl/maps/lomyJ)
 
 
 
