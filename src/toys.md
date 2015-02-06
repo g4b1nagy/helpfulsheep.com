@@ -19,7 +19,7 @@ Here be things that I've made over time that I think you might like. Go on, they
 
 Straight from your Nokia phone and back from the dead.
 
-<a href="/snake/"><img class="img-full" src="/assets/snake.png" alt="Snake II game"></a>
+<a href="/snake/"><img class="img-full" src="snake.png" alt="Snake II game"></a>
 
 
 
@@ -28,7 +28,7 @@ Straight from your Nokia phone and back from the dead.
 
 A lot like the rage comic builder, but with any image on the web.
 
-<a href="/image-jam/"><img class="img-full" src="/assets/image-jam.png" alt="Image Jam"></a>
+<a href="/image-jam/"><img class="img-full" src="image-jam.png" alt="Image Jam"></a>
 
 
 
@@ -37,4 +37,4 @@ A lot like the rage comic builder, but with any image on the web.
 
 Sometimes you save the bike and sometimes the bike saves you. Find out below.
 
-<a href="/toys/bike-savings-calculator/"><img class="img-full" src="/assets/bike-savings-calculator.png" alt="Bike savings calculator"></a>
+<a href="/toys/bike-savings-calculator/"><img class="img-full" src="bike-savings-calculator.png" alt="Bike savings calculator"></a>

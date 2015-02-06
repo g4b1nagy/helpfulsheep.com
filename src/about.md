@@ -12,7 +12,7 @@ title: !!python/unicode 'About'
 
 Hi, I'm Gabi, the guy behind the sheep (not in that way, you sick bastard) and this is my small creature set out to make the world a better place.
 
-<img class="img-full" src="/assets/gabi.jpg" alt="g4b1nagy">
+<img class="img-full" src="gabi.jpg" alt="g4b1nagy">
 
 I've got a degree in computer science and a certificate in electric guitar. Sometimes I play computers, sometimes I program musical instruments. And when I don't, I usually go biking mountains.
 
