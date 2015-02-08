@@ -1,7 +1,7 @@
 ===========================================================================
 categories: ''
 date: 2015-02-04 17:17
-description: "Hi, I'm Gabi, the guy behind the sheep"
+description: "Hi, I'm Gabi, the guy behind the sheep (not in that way, you sick bastard)"
 icon: ''
 ogimage: ''
 script: ''

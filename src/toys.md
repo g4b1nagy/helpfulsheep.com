@@ -1,7 +1,7 @@
 ===========================================================================
 categories: ''
 date: 2015-02-04 21:58
-description: "Here be things that I've made over time"
+description: "Here be things that I've made over time that I think you might like"
 icon: ''
 ogimage: ''
 script: ''

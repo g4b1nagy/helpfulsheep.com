@@ -1,7 +1,7 @@
 ===========================================================================
 categories: ''
 date: 2015-02-04 22:02
-description: "I'm going to put up a portfolio page very soon..."
+description: "If it moves on the web and it's not a spider, chances are I can give you a hand"
 icon: ''
 ogimage: ''
 script: ''
