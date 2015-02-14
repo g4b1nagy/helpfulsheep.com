@@ -140,6 +140,9 @@ article .img-container img {
   max-width: 48%;
   margin: 6px 2% 6px 0;
 }
+article li {
+  margin: 5px 0;
+}
 article .caption {
   margin: -15px 0 30px;
   font-style: italic;
