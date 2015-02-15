@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'ramblings'
 date: 2015-02-05 01:56
-description: ''
+description: "It's been 3 years, 3 months and 28 days since this site first went online on 8 Oct 2011. But until today, you couldn't have told by looking at it."
 icon: ''
 ogimage: ''
 script: ''

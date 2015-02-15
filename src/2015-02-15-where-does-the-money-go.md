@@ -12,7 +12,7 @@ title: !!python/unicode 'Where does the money go?'
 
 Like most people, I dream of a magical time when I am blessed with a passive monthly income that allows me to spend approximately zero amount of time working. Like most people again, I have done absolutely nothing to make this happen. Well, except for one thing.
 
-Starting from the 18th of June, 2013, I have kept track of more or less every ounce of currency leaving my pocket. That's exactly 1 year, 7 months, 28 days and, in case you're wondering, 2.315 entries in a spreadsheet.
+Starting from the 18th of June, 2013, I have kept track of more or less every ounce of currency leaving my pocket. That's exactly 1 year, 7 months, 28 days and, in case you're wondering, 2,315 entries in a spreadsheet.
 
 The purpose, you might ask? Well, for one, I wanted to see how much money would need to flow my way before I could become free from work and I also thought this would paint a really interesting and objective picture of my spending habits.
 
