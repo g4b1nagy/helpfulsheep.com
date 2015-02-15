@@ -29,7 +29,7 @@ Before you ask, allow me to clear up some of those categories:
 
 It's interesting to note that although 59.6% of my entries fall in the food category, they only account for 18.5% of my spending. It's also interesting that I have spent more money on internet items than on the people around me. I must really not like people as much as I thought.
 
-Now as much as I'd like my private data to be publicly available on the internet, I took the liberty of converting the numbers below from my local currency to SheepCoin&reg;&trade; at the rate set forth by the [Wooolsey-Mutton Federal Bank](http://uncyclopedia.wikia.com/wiki/Woolsey-Mutton_Federal_Bank).
+Now as much as I'd like my private data to be publicly available on the internet, I took the liberty of converting the numbers below from my local currency to SheepCoin&reg;&trade; at the rate set forth by the Wooolsey-Mutton Federal Bank.
 
 Since these charts are quite cramped, you might want to check out the [full page version](charts.html) as well.
 
