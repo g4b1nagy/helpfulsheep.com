@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'experiments'
 date: 2015-02-15 19:31
-description: 'Like most people, I dream of a magical time when I am blessed with a passive monthly income that allows me to spend approximately zero amount of time working'
+description: "Like most people, I dream of a magical time when I am blessed with a passive monthly income that allows me to spend approximately zero amount of time working"
 icon: ''
 ogimage: ''
 script: ''

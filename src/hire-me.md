@@ -1,7 +1,7 @@
 ===========================================================================
 categories: ''
 date: 2015-02-04 22:02
-description: "If it moves on the web and it's not a spider, chances are I can give you a hand"
+description: "I am available for freelance web development work. I've done a lot of different things over the years, from conference websites to real time maps and from medical apps to real estate search engines so if it moves on the web and it's not a spider, chances are I can give you a hand"
 icon: ''
 ogimage: ''
 script: ''

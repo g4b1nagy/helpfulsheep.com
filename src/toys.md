@@ -1,7 +1,7 @@
 ===========================================================================
 categories: ''
 date: 2015-02-04 21:58
-description: "Here be things that I've made over time that I think you might like"
+description: "Here be things that I've made over time that I think you might like. Go on, they don't bite"
 icon: ''
 ogimage: ''
 script: ''
