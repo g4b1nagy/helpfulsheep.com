@@ -26,7 +26,7 @@ Now you might be asking yourself why on Earth would a good looking guy like me s
 
 I was pretty dumbfounded. I asked a friend who's keen on WordPress for an opinion and he suggested that it was probably an injection in my WordPress install.
 
-Unfortunately, I had deleted all of WordPress's files when I redesigned my website, but I did keep a database dump as a souvenir (because that's the kind of souvenirs you get when you're a programmer). Since my WordPress install was extremely clean i.e. default theme with no additional plugins and all my passwords were 20 character alpha-numerico-@#$%^-hellstorms, I was really curious to see if somebody had managed to gain acces to my db. After running `cat db.sql | grep -i loan` and checking most of the tables, I concluded that although I was running WordPress 3.2.1, the db had not been altered.
+Unfortunately, I had deleted all of WordPress' files when I redesigned my website, but I did keep a database dump as a souvenir (because that's the kind of souvenirs you get when you're a programmer). Since my WordPress install was extremely clean i.e. default theme with a single additional plugin (slimbox) and all my passwords were 20 character alpha-numerico-@#$%^-hellstorms, I was really curious to see if somebody had managed to gain access to my db. After running `cat db.sql | grep -i loan` and checking most of the tables, I concluded that although I was running WordPress 3.2.1, the db had not been altered.
 
 Playing around with Webmaster Tools, I came across a very interesting timeline of the attack. As you can see, my website went from 70 indexed pages to about 600 overnight.
 
@@ -74,11 +74,11 @@ wget --header="User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.g
 HTTP request sent, awaiting response... 200 OK
 //code
 
-After trying to use the first 20 [most popular websited in the US](http://www.alexa.com/topsites/countries/US) as referrers, I found out the pages were quite picky. Apart from the word "google", I only managed to make them work for "yahoo". "Bing" did not work either. I'm sorry, Microsoft.
+After trying to use the first 20 [most popular websites in the US](http://www.alexa.com/topsites/countries/US) as referrers, I found out the pages were quite picky. Apart from the word "google", I only managed to make them work for "yahoo". "Bing" did not work either. I'm sorry, Microsoft.
 
 As far as the user agent goes, including the word "bot" seemed to be enough to trigger a successful response. As you can guess, the pages serve different content based on who's visiting:
 
-* if you're a search engine, you're gonna see the kind of random article that I showed you earlier, hopefully making you go on a wild goose chase
+* if you're a search engine, you're gonna see the kind of link-filled random article that I showed you earlier, hopefully making you go on a wild goose chase
 * if you're a normal user and you're coming from Google or Yahoo, you're gonna see the page from getthisloannow.com
 * if you're the website owner and just type in the URL to make sure there's nothing there, you get a reassuring 404 page
 
@@ -96,3 +96,16 @@ Running nslookup on the domains revealed that 65% of them were using FatCow name
 I've also sent and email to contact@getthisloannow.com to ask about their business model. Hey, maybe it pays well, who knows? In case you're wondering, filling out their loan form just redirects you to a page filled with... Google Ads. Yes. I know.
 
 I will update this as things move along.
+
+A few hours later, I received an email from FatCow:
+
+<blockquote>
+  <p>Dear Gabi,</p>
+  <p>Thank you for contacting support.</p>
+  <p>&nbsp;</p>
+  <p>There doesn't appear to be any indication of any server-side security breach at this point: even though that may seem a large number, it's actually only a fraction of one percent of the number of Wordpress installations present across our system. Investigation is ongoing, but typically in cases like this, we'll often find there was a common issue, such as a vulnerable plugin or theme, such as the exploit <a href="http://blog.sucuri.net/2015/02/zero-day-in-the-fancybox-for-wordpress-plugin.html">described here</a>.</p>
+  <p>&nbsp;</p>
+  <p>We appreciate you bringing this to our attention, though for obvious reasons, we're sure you understand we can't provide specific information on how this is being handled, what we find out, etc.</p>
+</blockquote>
+
+Needless to say, I'm happy to see they took the time to investigate the issue and it's good to know that it was most likely a WordPress issue. All in all, good lesson on web security, right there.
