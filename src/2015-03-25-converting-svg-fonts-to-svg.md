@@ -12,7 +12,7 @@ title: !!python/unicode 'Converting SVG fonts to... SVG'
 
 If you've ever had to deal with [Bootstrap](http://getbootstrap.com/), chances are you've run into the [glyphicons-halflings-regular.svg](https://github.com/twbs/bootstrap/blob/master/fonts/glyphicons-halflings-regular.svg) file. If not, let me sum things up: web fonts can be served to the browser in different formats, SVG being one of them. Now, you might expect this to be a run of the mill, ordinary SVG file, but if you try and open it in Inkscape or Google Chrome, it just renders as a<!--more--> blank page.
 
-A few days ago, a [friend](https://www.behance.net/danielmuntean) had to do some design work on a Bootstrap based website and needed a scalable version of the icons. Because people have the horrible habit of needing food and shelter, the free version of the [Glyphicons icon pack](http://glyphicons.com/) only offers things in `.png` format. After suggesting he use the `.ttf` file and realizing that it's probably a pain to have to look up the glyph codes every time, I thought that there must be something to that pesky SVG file.
+A few days ago, a [friend](http://danielmuntean.com/) had to do some design work on a Bootstrap based website and needed a scalable version of the icons. Because people have the horrible habit of needing food and shelter, the free version of the [Glyphicons icon pack](http://glyphicons.com/) only offers things in `.png` format. After suggesting he use the `.ttf` file and realizing that it's probably a pain to have to look up the glyph codes every time, I thought that there must be something to that pesky SVG file.
 
 <a href="inkscape-svg-font-editor.png"><img class="img-full" src="inkscape-svg-font-editor.png" alt="Inkscape SVG font editor"></a>
 
