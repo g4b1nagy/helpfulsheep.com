@@ -21,44 +21,44 @@ I am available for freelance web development work. I've done a lot of different 
 
 
 <br>
-## [CTF365 attack map](https://ctf365.com/pages/map) ##
+## <a href="https://ctf365.com/pages/map" target="_blank">CTF365 attack map</a> ##
 
 Real time map of security attacks
 
-<a href="https://ctf365.com/pages/map"><img class="img-full" src="ctf365.png" alt="CTF365 attack map"></a>
+<a href="https://ctf365.com/pages/map" target="_blank"><img class="img-full" src="ctf365.png" alt="CTF365 attack map"></a>
 
 <p class="caption">Technologies: <a href="http://leafletjs.com/">Leaflet</a>, <a href="http://nodejs.org/">Node.js</a></p>
 
 
 
 <br>
-## [nemutam.com](http://nemutam.com/) ##
+## <a href="http://nemutam.com/" target="_blank">nemutam.com</a> ##
 
 Rent listing aggregator for Cluj-Napoca
 
-<a href="http://nemutam.com/"><img class="img-full" src="nemutam.png" alt="nemutam.com"></a>
+<a href="http://nemutam.com/" target="_blank"><img class="img-full" src="nemutam.png" alt="nemutam.com"></a>
 
 <p class="caption">Technologies: <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://flask.pocoo.org/">Flask</a></p>
 
 
 
 <br>
-## [reciclopedia.ro](http://reciclopedia.ro/) ##
+## <a href="http://reciclopedia.ro/" target="_blank">reciclopedia.ro</a> ##
 
 Open map of recycling points
 
-<a href="http://reciclopedia.ro/"><img class="img-full" src="reciclopedia.png" alt="reciclopedia.ro"></a>
+<a href="http://reciclopedia.ro/" target="_blank"><img class="img-full" src="reciclopedia.png" alt="reciclopedia.ro"></a>
 
 <p class="caption">Technologies: <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://rubyonrails.org/">Ruby on Rails</a></p>
 
 
 
 <br>
-## [ICSFS](icsfs-full.png) ##
+## <a href="icsfs-full.png" target="_blank">ICSFS</a> ##
 
 Xth International Conference Students for Students on Chemistry
 
-<a href="icsfs-full.png"><img class="img-full" src="icsfs.png" alt="ICSFS"></a>
+<a href="icsfs-full.png" target="_blank"><img class="img-full" src="icsfs.png" alt="ICSFS"></a>
 
 <p class="caption">Technologies: <a href="css.gif">CSS</a>, <a href="http://php.net/">PHP</a></p>
 
@@ -70,4 +70,4 @@ An avid GNU/Linux user, I'm very fluent in Python and JavaScript. I love writing
 
 If you're still not sure, feel free to go over to my
 
-[`GitHub page`](https://github.com/g4b1nagy/) or just <a id="email" href="mailto:gabi_screw_your_spam@helpfulsheep.com"><code>send me an email</code></a>
+<a href="https://github.com/g4b1nagy/" target="_blank"><code>GitHub page</code></a> or just <a id="email" href="mailto:gabi_screw_your_spam@helpfulsheep.com"><code>send me an email</code></a>
