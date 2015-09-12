@@ -24,11 +24,11 @@ Straight from your Nokia phone and back from the dead.
 
 
 <br>
-## <a href="/image-jam/" target="_blank">Image Jam</a> ##
+## <a href="/2015-09-12-javascript-terminal-simulator/demo.html" target="_blank">JavaScript terminal simulator</a> ##
 
-A lot like the rage comic builder, but with any image on the web.
+The geekiest way to sign up for a website, ever.
 
-<a href="/image-jam/" target="_blank"><img class="img-full" src="image-jam.png" alt="Image Jam"></a>
+<a href="/2015-09-12-javascript-terminal-simulator/demo.html" target="_blank"><img class="img-full" src="terminal-simulator.png" alt="JavaScript terminal simulator"></a>
 
 
 

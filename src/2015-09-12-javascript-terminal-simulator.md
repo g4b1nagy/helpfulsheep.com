@@ -16,4 +16,4 @@ After a bit of fumbling around the jQuery API, I gathered all the event handlers
 
 Before you wonder off in that direction, allow me to stop you in your tracks: no, there's no way of triggering the virtual keyboard from JavaScript, because that would be annoying as fkuc. And no, you can't get the keyboard to show by focusing an input tag. Unless, (and this is the important part) it's in response to a user-triggered event. What's that? Force the user to tap the document, focus an off-page input tag and receive a keyboard? Bingo! Demo below:
 
-<a href="demo.html"><img class="img-full" src="terminal-signup.png" alt="JavaScript terminal simulator"></a>
+<a href="demo.html"><img class="img-full" src="terminal-simulator.png" alt="JavaScript terminal simulator"></a>
