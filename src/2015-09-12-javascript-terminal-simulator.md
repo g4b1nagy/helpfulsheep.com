@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'web'
 date: 2015-09-12 22:20
-description: ''
+description: "A few days ago I received a call from Marius Corîci of CTF365.com, who had just run into hackertyper.com and, being rather amused and excited by what he saw, asked me to come up with a similar concept for their sign-up page"
 icon: ''
 ogimage: ''
 script: ''
