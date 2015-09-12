@@ -26,7 +26,7 @@ Straight from your Nokia phone and back from the dead.
 <br>
 ## <a href="/2015-09-12-javascript-terminal-simulator/demo.html" target="_blank">JavaScript terminal simulator</a> ##
 
-The geekiest way to sign up for a website, ever.
+The geekiest way to sign up for an account, ever.
 
 <a href="/2015-09-12-javascript-terminal-simulator/demo.html" target="_blank"><img class="img-full" src="terminal-simulator.png" alt="JavaScript terminal simulator"></a>
 
