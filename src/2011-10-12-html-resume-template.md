@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'goodies'
 date: 2011-10-12 04:23
-description: ''
+description: "Although I dislike the idea of getting a job as much as the next guy, I recently found myself in the position of rewriting my old resume and having another go at sending it around"
 icon: ''
 ogimage: ''
 script: ''

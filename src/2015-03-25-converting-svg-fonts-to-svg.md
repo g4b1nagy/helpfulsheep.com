@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'web'
 date: 2015-03-25 23:21
-description: ''
+description: "If you've ever had to deal with Bootstrap, chances are you've run into the glyphicons-halflings-regular.svg file"
 icon: ''
 ogimage: ''
 script: ''

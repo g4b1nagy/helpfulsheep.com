@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'goodies'
 date: 2011-10-11 18:16
-description: ''
+description: "If you're sick of the way Yahoo Messenger sucks the living daylight out of your computer, fills your screen with conversation windows and pokes you in the eye with advertisements"
 icon: ''
 ogimage: ''
 script: ''

@@ -1,7 +1,7 @@
 ===========================================================================
 categories: 'goodies'
 date: 2012-01-20 04:43
-description: ''
+description: "If you spend a lot of time online, and since you even managed to end up on this page, I'm assuming you do, you've surely had this problem before: a freaking gazillion usernames and passwords to keep track of"
 icon: ''
 ogimage: ''
 script: ''
