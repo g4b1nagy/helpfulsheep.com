@@ -23,7 +23,7 @@ I am available for freelance web development work. I've done a lot of different 
 <br>
 ## <a href="http://problematic.ro/" target="_blank">problematic.ro</a> ##
 
-The place negative reviews call home
+The place negative reviews call home.
 
 <a href="http://problematic.ro/" target="_blank"><img class="img-full" src="problematic.png" alt="problematic.ro"></a>
 
@@ -34,7 +34,7 @@ The place negative reviews call home
 <br>
 ## <a href="https://ctf365.com/pages/map" target="_blank">CTF365 attack map</a> ##
 
-Real time map of security attacks
+Real time map of security attacks.
 
 <a href="https://ctf365.com/pages/map" target="_blank"><img class="img-full" src="ctf365.png" alt="CTF365 attack map"></a>
 
@@ -45,7 +45,7 @@ Real time map of security attacks
 <br>
 ## <a href="http://nemutam.com/" target="_blank">ne mutam.com</a> ##
 
-Rent listing aggregator for Cluj-Napoca
+Rent listing aggregator for Cluj-Napoca.
 
 <a href="http://nemutam.com/" target="_blank"><img class="img-full" src="nemutam.png" alt="nemutam.com"></a>
 
@@ -56,7 +56,7 @@ Rent listing aggregator for Cluj-Napoca
 <br>
 ## <a href="http://reciclopedia.ro/" target="_blank">reciclopedia.ro</a> ##
 
-Open map of recycling points
+Open map of recycling points.
 
 <a href="reciclopedia.png" target="_blank"><img class="img-full" src="reciclopedia.png" alt="reciclopedia.ro"></a>
 
@@ -67,7 +67,7 @@ Open map of recycling points
 <br>
 ## <a href="icsfs-full.png" target="_blank">ICSFS</a> ##
 
-Xth International Conference Students for Students on Chemistry
+Xth International Conference Students for Students on Chemistry.
 
 <a href="icsfs-full.png" target="_blank"><img class="img-full" src="icsfs.png" alt="ICSFS"></a>
 
