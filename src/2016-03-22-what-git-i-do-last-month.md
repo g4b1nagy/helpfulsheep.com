@@ -89,6 +89,9 @@ I am (apparently) notoriously lazy, so I really can't be bothered to type 3 diff
 
 //code bash
 git config --global alias.slm '!echo $(git log --author="$(git config user.name)" --no-merges --before=$(date "+%Y-%m-01T00:00") --after=$(date -d "-$(date +%d) days -1 month" "+%Y-%m-%dT23:59") --reverse | grep commit | wc -l) commits, $(git log --author="$(git config user.name)" --no-merges --before=$(date "+%Y-%m-01T00:00") --after=$(date -d "-$(date +%d) days -1 month" "+%Y-%m-%dT23:59") --reverse --stat | grep -Eo "[0-9]{1,} files? changed" | grep -Eo "[0-9]{1,}" | awk "{ sum += \$1 } END { print sum }") files changed, $(git log --author="$(git config user.name)" --no-merges --before=$(date "+%Y-%m-01T00:00") --after=$(date -d "-$(date +%d) days -1 month" "+%Y-%m-%dT23:59") --reverse --stat | grep -Eo "[0-9]{1,} insertions?" | grep -Eo "[0-9]{1,}" | awk "{ sum += \$1 } END { print sum }") insertions and $(git log --author="$(git config user.name)" --no-merges --before=$(date "+%Y-%m-01T00:00") --after=$(date -d "-$(date +%d) days -1 month" "+%Y-%m-%dT23:59") --reverse --stat | grep -Eo "[0-9]{1,} deletions?" | grep -Eo "[0-9]{1,}" | awk "{ sum += \$1 } END { print sum }") deletions last month'
+
+git slm
+11 commits, 17 files changed, 242 insertions and 9 deletions last month
 //code
 
 I could extract the dates and make the whole thing prettier, and git probably hates my guts now that I did this to it, but hey, it works!
@@ -102,6 +105,7 @@ Turns out, there's this little package called faketime that does exactly what it
 
 //code bash
 # Ho-ho-ho, let's see how coding went in December
-faketime "2016-01-01" git slm
+faketime "2016-01-15" bash -l  # start a new bash session set to the 15th of January 2016
+git slm
 11 commits, 17 files changed, 242 insertions and 9 deletions last month
 //code
