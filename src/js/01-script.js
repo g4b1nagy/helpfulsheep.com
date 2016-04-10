@@ -8,12 +8,14 @@ function nightMode() {
   link.rel = 'stylesheet';
   link.href = '/assets/night-mode.css';
   document.head.appendChild(link);
+  document.querySelector('meta[name=theme-color]').setAttribute('content', '#00425a');
   document.querySelector('link[rel=icon]').href = '/assets/icon-night.ico';
 }
 
 function dayMode() {
   var link = document.getElementById('night-mode');
   link.parentNode.removeChild(link);
+  document.querySelector('meta[name=theme-color]').setAttribute('content', '#95c55f');
   document.querySelector('link[rel=icon]').href = '/assets/icon.ico';
 }
 
