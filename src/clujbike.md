@@ -11,4 +11,4 @@ title: !!python/unicode 'Harta Cluj Bike'
 ===========================================================================
 
 <div id="map"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHhxSpPJK0I2lB7kyl51p5jqbLAIxzj8U&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHhxSpPJK0I2lB7kyl51p5jqbLAIxzj8U"></script>
