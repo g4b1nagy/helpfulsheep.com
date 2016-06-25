@@ -151,6 +151,85 @@ It ain't perfect but <img style="vertical-align: -17px;" src="its-something.jpg"
 <br>
 <br>
 
+
+
+
+
+
+## Azure - de la Mihai Turcu (<a href="http://mihaiturcu.ro/" target="_blank">mihaiturcu.ro</a>), citire: ##
+
+Pentru labul cu azure, in principiu ar trebui sa functioneze exact acelasi cod, fara prea multe schimbari.
+Daca luati ca date de intrare toate fisierele dintr-un anumit input path, ca in secventa de cod de mai jos, sa va asigurati ca folositi cai relative:
+
+//code bash
+FileInputFormat.setInputPaths(job, new Path("/user/root/input"));
+FileOutputFormat.setOutputPath(job, new Path("/user/root/output"));
+//code
+
+Recomand sa folositi acelasi input path ca si cel din liniile de mai sus deoarece o sa va vina mai usor sa ma urmariti.
+
+Pasul 1) Uploadati jar-ul si input file-urile voastre pe clusterul de hdinsight din azure.
+Ca sa puteti face asta, va duceti din panoul de control azure in dashboard-ul pentru cluster -> all settings -> Secure Shell -> retineti host-name-ul.
+
+<a href="http://i.imgur.com/wRXpUfw.png"><img class="img-full" src="http://i.imgur.com/wRXpUfw.png"></a>
+
+Va descarcati un client de ftp/sftp/scp precum WinSCP, completati datele ca in imaginea de aici:
+
+<a href="http://i.imgur.com/8sI1Kk2.png"><img class="img-full" src="http://i.imgur.com/8sI1Kk2.png"></a>
+
+folosind in campul de username
+numele de utilizator definit la crearea clusterului, pentru SSH (v-o cerut de 2 ori un nume si o parola, mai specific al 2 lea set de date va trebuie).
+Trageti in fereastra din dreapta jar-ul si input file-urile pentru a le face upload:
+
+<a href="http://i.imgur.com/AIYSuY7.png"><img class="img-full" src="http://i.imgur.com/AIYSuY7.png"></a>
+
+Pasul 2) Creati input path-ul pe DFS si uploadati acolo fisierele de input.
+Faceti ssh pe masina respectiva folosind aceleasi date si apoi rulati urmatoarele comenzi.
+
+//code bash
+sudo su -
+cd /home/userultaudessh
+hadoop fs -mkdir /user/root/input
+hadoop fs -put numefisier /user/root/input/ (da are un slash la urma)
+hadoop fs -ls /user/root/input/ (doar pentru a verifica existenta datelor in dfs)
+//code
+
+<a href="http://i.imgur.com/je8vTBQ.png"><img class="img-full" src="http://i.imgur.com/je8vTBQ.png"></a>
+
+Pasul 3) Rulati jar-ul
+hadoop jar /path/to/jar argumentsIfNeeded (apare si in poza de mai sus cum l-am rulat)
+
+Daca o sa rulati de mai multe ori jar-ul respectiv, probabil se va plange ca exista deja date in directorul de output.
+Pentru a curata directorul de output rulati comanda:
+
+//code bash
+hadoop fs -rm -r /user/root/output/
+//code
+
+<a href="http://i.imgur.com/PuSEQjP.png"><img class="img-full" src="http://i.imgur.com/PuSEQjP.png"></a>
+
+(aici exemplu de rulare ok)
+
+Dupa ce ati rulat, regasiti rezultatele in dfs in /user/root/output/part-something.
+Rulati:
+
+//code bash
+hadoop fs -ls /user/root/output
+# Vedeti in ce fisier vi-s rezultatele apoi incercati sa le vizualizati folosind comanda
+hadoop fs -cat /user/root/output/part-something | less (cautati cu /ceva)
+//code
+
+O alta optiune e sa va aduceti fisierul de output pe filesystemul masinii si de acolo sa il deschideti cu ce vreti.
+
+<a href="http://i.imgur.com/1hmEY6Z.png"><img class="img-full" src="http://i.imgur.com/1hmEY6Z.png"></a>
+
+Puteti sa il deschideti din WinSCP cu cine stie ce editor aveti pe masina locala daca optati pe varianta asta.
+
+Have fun.
+
+<br>
+<br>
+
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
