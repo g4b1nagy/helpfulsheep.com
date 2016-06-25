@@ -8,9 +8,6 @@
  * Mixins
  * ======================================================================== */
 /* ========================================================================
- * Section
- * ======================================================================== */
-/* ========================================================================
  * Global
  * ======================================================================== */
 html {
@@ -37,7 +34,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #666666;
+  color: #666;
 }
 .container {
   width: 600px;
@@ -71,7 +68,7 @@ h4 {
   font-weight: bold;
 }
 #site-header a {
-  color: #333333;
+  color: #333;
 }
 #site-header a:hover {
   color: #111111;
@@ -85,7 +82,7 @@ main {
 article {
   margin-top: 32px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 article header {
   /* article title tags */
@@ -101,7 +98,7 @@ article h1 a,
 article h2 a,
 article h3 a,
 article h4 a {
-  color: #666666;
+  color: #666;
 }
 article h1 a:hover,
 article h2 a:hover,
@@ -112,7 +109,7 @@ article h4 a:hover {
 article .article-meta {
   margin: 0 0 23px;
   font-size: 0.85em;
-  color: #888888;
+  color: #888;
 }
 article p {
   line-height: 1.5;
@@ -146,14 +143,14 @@ article li {
 article .caption {
   margin: -15px 0 30px;
   font-style: italic;
-  color: #888888;
+  color: #888;
   text-align: center;
 }
 main .category {
   margin: 50px 0 10px;
   padding-bottom: 20px;
   color: #4b4b4b;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 .article-single {
   padding-bottom: 0;
@@ -171,12 +168,12 @@ main .category {
   height: 36px;
   margin-top: 40px;
   font-size: 0.9em;
-  color: #888888;
+  color: #888;
   text-align: center;
 }
 #site-pagination a {
   padding: 7px 15px;
-  color: #888888;
+  color: #888;
   border: 2px solid #ddd;
   border-radius: 50px;
   transition: border ease 0.2s;
@@ -264,8 +261,8 @@ code {
 blockquote {
   margin: 0;
   padding: 10px 20px;
-  color: #888888;
-  border-left: 5px solid #eeeeee;
+  color: #888;
+  border-left: 5px solid #eee;
 }
 blockquote p {
   margin: 0;
