@@ -9,14 +9,14 @@ function nightMode() {
   link.href = '/assets/night-mode.css';
   document.head.appendChild(link);
   document.querySelector('meta[name=theme-color]').setAttribute('content', '#00425a');
-  document.querySelector('link[rel=icon]').href = '/assets/icon-night.ico';
+  document.querySelector('link[rel=icon]').href = '/assets/icon-night.png';
 }
 
 function dayMode() {
   var link = document.getElementById('night-mode');
   link.parentNode.removeChild(link);
   document.querySelector('meta[name=theme-color]').setAttribute('content', '#95c55f');
-  document.querySelector('link[rel=icon]').href = '/assets/icon.ico';
+  document.querySelector('link[rel=icon]').href = '/assets/icon.png';
 }
 
 var date = new Date();
