@@ -18,7 +18,6 @@ I've got a degree in computer science and a certificate in electric guitar. Some
 
 
 
-<br>
 ## Get in touch ##
 
 I'm quite user-friendly, so if you've got anything on your mind, feel free to drop me a line or two. You can get in touch on
@@ -27,7 +26,6 @@ I'm quite user-friendly, so if you've got anything on your mind, feel free to dr
 
 
 
-<br>
 ## Terms of use ##
 Apart from the Helpful Sheep logo and a few other things, the content is my own work and unless otherwise stated, you are free to use it in any way you wish to. Basically, you are free to redistribute and/or modify anything you can get your hands on and include it in your own work regardless of its commercial or non-commercial nature. I do not require any kind of compensation, but a link back to my website would be greatly appreciated.
 

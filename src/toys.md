@@ -14,7 +14,6 @@ Here be things that I've made over time that I think you might like. Go on, they
 
 
 
-<br>
 ## <a href="/snake/" target="_blank">Snake II game</a> ##
 
 Straight from your Nokia phone and back from the dead.
@@ -23,7 +22,6 @@ Straight from your Nokia phone and back from the dead.
 
 
 
-<br>
 ## <a href="/2015-09-12-javascript-terminal-simulator/demo.html" target="_blank">JavaScript terminal simulator</a> ##
 
 The geekiest way to sign up for an account, ever.
@@ -32,7 +30,6 @@ The geekiest way to sign up for an account, ever.
 
 
 
-<br>
 ## <a href="/toys/bike-savings-calculator/" target="_blank">Bike savings calculator</a> ##
 
 Sometimes you save the bike and sometimes the bike saves you. Find out below.
