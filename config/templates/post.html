@@ -1,41 +1,38 @@
 {% extends "layouts/default.html" %}
 
 {% block content %}
-      <article>
-        <header>
-          <h1>{{ title }}</h1>
-          <div class="article-meta">
-            <time datetime="{{ date.strftime('%Y-%m-%d %H:%M') }}">{{ date.strftime('%d %b %Y') }}</time>
-            {% if categories %}
-              in
-              {% for category in categories %}
-                <a href="{{ category.link }}">{{ category.name|capitalize }}</a>{%- if not loop.last -%},{% endif %}
-              {% endfor %}
-            {% endif %}
-          </div>
-        </header>
-        {{ content }}
-      </article>
-      <nav id="site-pagination">
-        {% if prev_post %}
-          <a class="prev" href="{{ prev_post }}">&larr; Prev post</a>
-        {% endif %}
-        <span></span>
-        {% if next_post %}
-          <a class="next" href="{{ next_post }}">Next post &rarr;</a>
-        {% endif %}
-      </nav>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-          var disqus_shortname = 'helpfulsheep'; // required: replace example with your forum shortname
-
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <article>
+                <header>
+                    <h1>{{ title }}</h1>
+                    <div class="article-meta">
+                        <time datetime="{{ date.strftime('%Y-%m-%d %H:%M') }}">{{ date.strftime('%d %b %Y') }}</time>
+                        {% if categories %}
+                            in
+                            {% for category in categories %}
+                                <a href="{{ category.link }}" rel="tag">{{ category.name|capitalize }}</a>{%- if not loop.last -%},{% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                </header>
+                {{ content }}
+            </article>
+            <nav id="site-pagination">
+                {% if prev_post %}
+                    <a class="prev" href="{{ prev_post }}" rel="prev">&larr; Prev post</a>
+                {% endif %}
+                <span></span>
+                {% if next_post %}
+                    <a class="next" href="{{ next_post }}" rel="next">Next post &rarr;</a>
+                {% endif %}
+            </nav>
+            <div id="disqus_thread"></div>
+            <script>
+            (function() {
+                var d = document, s = d.createElement('script');
+                s.src = '//helpfulsheep.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endblock %}
