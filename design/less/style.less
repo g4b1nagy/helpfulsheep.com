@@ -30,7 +30,7 @@
  * Mixins
  * ======================================================================== */
 
-#up-down-margin(@extra) {
+#top-bottom-margin(@extra) {
     margin-top: 30px - @extra;
     margin-bottom: 30px - @extra;
 }
@@ -186,11 +186,11 @@ article {
         display: block;
         max-width: 100%;
         margin: 0 auto;
-        #up-down-margin(0);
+        #top-bottom-margin(0);
     }
 
     .img-container {
-        #up-down-margin(6px);
+        #top-bottom-margin(6px);
         font-size: 0;
 
         img {
@@ -306,7 +306,7 @@ code {
 
 .code-container {
     width: 100%;
-    #up-down-margin(0);
+    #top-bottom-margin(0);
     overflow-x: auto;
     overflow-y: hidden;
 
@@ -330,7 +330,7 @@ code {
 .video-container {
     position: relative;
     height: 0;
-    #up-down-margin(0);
+    #top-bottom-margin(0);
     padding-top: 25px;
     /* 16:9 */
     padding-bottom: 56.25%;
