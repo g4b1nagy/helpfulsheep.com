@@ -20,11 +20,11 @@ I am available for freelance web development work. I've done a lot of different 
 
 
 
-## <a href="http://problematic.ro/" target="_blank">problematic.ro</a> ##
+## <a href="problematic.png" target="_blank">problematic.ro</a> ##
 
 The place negative reviews call home.
 
-<a href="http://problematic.ro/" target="_blank"><img class="img-full" src="problematic.png" alt="problematic.ro"></a>
+<a href="problematic.png" target="_blank"><img class="img-full" src="problematic.png" alt="problematic.ro"></a>
 
 <p class="caption">Technologies: <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://flask.pocoo.org/">Flask</a></p>
 
@@ -40,6 +40,16 @@ Real time map of security attacks.
 
 
 
+## <a href="webmedicare-full.png" target="_blank">webMedicare</a> ##
+
+Web version of the iMedicare iPad app.
+
+<a href="webmedicare-full.png" target="_blank"><img class="img-full" src="webmedicare.png" alt="webMedicare"></a>
+
+<p class="caption">Technologies: <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://flask.pocoo.org/">Flask</a></p>
+
+
+
 ## <a href="http://nemutam.com/" target="_blank">ne mutam.com</a> ##
 
 Rent listing aggregator for Cluj-Napoca.
@@ -50,7 +60,7 @@ Rent listing aggregator for Cluj-Napoca.
 
 
 
-## <a href="http://reciclopedia.ro/" target="_blank">reciclopedia.ro</a> ##
+## <a href="reciclopedia.png" target="_blank">reciclopedia.ro</a> ##
 
 Open map of recycling points.
 
