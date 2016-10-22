@@ -20,11 +20,11 @@ I am available for freelance web development work. I've done a lot of different 
 
 
 
-## <a href="problematic.png" target="_blank">problematic.ro</a> ##
+## <a href="problematic-full.png" target="_blank">problematic.ro</a> ##
 
 The place negative reviews call home.
 
-<a href="problematic.png" target="_blank"><img class="img-full" src="problematic.png" alt="problematic.ro"></a>
+<a href="problematic-full.png" target="_blank"><img class="img-full" src="problematic.png" alt="problematic.ro"></a>
 
 <p class="caption">Technologies: <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://flask.pocoo.org/">Flask</a></p>
 
