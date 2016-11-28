@@ -7,7 +7,7 @@ ogimage: ''
 script: ''
 style: ''
 template: page.html
-title: !!python/unicode 'Hire me'
+title: !!python/unicode 'Projects'
 ===========================================================================
 
 <style>
@@ -16,7 +16,7 @@ title: !!python/unicode 'Hire me'
   }
 </style>
 
-I am available for freelance web development work. I've done a lot of different things over the years, from conference websites to real time maps and from medical apps to real estate search engines so if it moves on the web and it's not a spider, chances are I can give you a hand. Below, some of my more noteworthy projects.
+I've done a lot of different things over the years, from conference websites to real time maps and from medical apps to real estate search engines so if it moves on the web and it's not a spider, chances are I can give you a hand. Below, some of my more noteworthy projects.
 
 
 
@@ -84,6 +84,6 @@ Xth International Conference Students for Students on Chemistry.
 
 An avid GNU/Linux user, I'm very fluent in Python and JavaScript. I love writing backend code almost as much as developing clean UIs so yes, I can definitely LESS the browser compatibility out of your CSS.
 
-If you're still not sure, feel free to go over to my
+Feel free to go over to my
 
 <a href="https://github.com/g4b1nagy/" target="_blank"><code>GitHub page</code></a> or just <a id="email" href="mailto:gabi_screw_your_spam@helpfulsheep.com"><code>send me an email</code></a>
