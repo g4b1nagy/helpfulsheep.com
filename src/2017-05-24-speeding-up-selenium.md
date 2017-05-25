@@ -32,7 +32,7 @@ urls = [
 ]
 display = Display(visible=0, size=(800, 600))
 display.start()
-driver = webdriver.Chrome()
+driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
 start_time = time.time()
 for url in urls:
     try:
@@ -55,7 +55,7 @@ When thinking about page load times, the first thing that comes to mind is: what
 //code python
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_extension('/path/to/extension.crx')
-driver = webdriver.Chrome(chrome_options=chrome_options)
+driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', chrome_options=chrome_options)
 //code
 
 
