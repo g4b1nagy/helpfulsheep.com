@@ -10,7 +10,7 @@ template: post.html
 title: !!python/unicode 'openssl_seal in Python'
 ===========================================================================
 
-When life gives you lemons, you make lemonade, no surprise there, but what about when life gives you a X509 certificate, some PHP code and you have to encrypt XMLs with the public key to integrate a payment provider?
+When life gives you lemons, you make lemonade, no surprise there, but what about when life gives you a X509 certificate, some PHP code and you have to encrypt XMLs with the public key to integrate a payment provider? <!--more-->
 
 
 //code text
