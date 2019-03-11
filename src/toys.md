@@ -10,6 +10,12 @@ template: page.html
 title: !!python/unicode 'Toys'
 ===========================================================================
 
+<style>
+  .img-full {
+    border: 1px solid #ddd;
+  }
+</style>
+
 Here be things that I've made over time that I think you might like. Go on, they don't bite.
 
 
@@ -19,6 +25,14 @@ Here be things that I've made over time that I think you might like. Go on, they
 Straight from your Nokia phone and back from the dead.
 
 <a href="/snake/" target="_blank"><img class="img-full" src="snake.png" alt="Snake II game"></a>
+
+
+
+## <a href="/time-left/" target="_blank">Time left</a> ##
+
+See how much 'till you kick the bucket.
+
+<a href="/time-left/" target="_blank"><img class="img-full" src="time-left.png" alt="Time left"></a>
 
 
 
