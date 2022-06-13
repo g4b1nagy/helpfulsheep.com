@@ -90,12 +90,14 @@ According to this <a href="https://web.archive.org/web/20150928173147/http://blo
 1. Extract the public_key from the certificate
 2. Generate a 128 bits (16 bytes) long random_key (this will be used to encrypt the message using a symmetrical algorithm, since it's faster)
 3. Encrypt the random_key using PKCS #1
-4. Encrypt the message using ARC4 and the random_key
+4. Encrypt the message using <s>ARC4</s> a secure cipher method and the random_key (Note that ARC4 is no longer considered secure and that PHP strongly recommends to explicitly specify a secure cipher method using the `cipher_algo` param)
 5. Output the encrypted_random_key and the encrypted_message
 
 The receiving party can then decrypt the encrypted_random_key using their private_key and then decrypt the encrypted_message using the random_key.
 
 Since there's no way of doing this in Python via the standard library, I'm just gonna' throw out the 3 approaches that I've tried out. At the time of writing, pyca/cryptography (cryptography.io) seems to be the most popular / most actively maintained library, so if I had to choose I'd probably recommend using this one.
+
+Update: PyCrypto 2.x is unmaintained, obsolete, and contains security vulnerabilities!!!
 
 
 //code python
@@ -117,7 +119,8 @@ public_key = certificate.public_key()
 random_key = os.urandom(16)
 encrypted_random_key = public_key.encrypt(plaintext=random_key, padding=cryptography.hazmat.primitives.asymmetric.padding.PKCS1v15())
 print(encrypted_random_key)
-algorithm = cryptography.hazmat.primitives.ciphers.algorithms.ARC4(random_key)
+# algorithm = cryptography.hazmat.primitives.ciphers.algorithms.ARC4(random_key)
+algorithm = cryptography.hazmat.primitives.ciphers.algorithms.AES(random_key)
 cipher = cryptography.hazmat.primitives.ciphers.Cipher(algorithm=algorithm, mode=None, backend=cryptography.hazmat.backends.default_backend())
 encryptor = cipher.encryptor()
 encrypted_message = encryptor.update(message)
@@ -140,7 +143,8 @@ rsa_pub = public_key.get_rsa()
 random_key = M2Crypto.Rand.rand_bytes(16)
 encrypted_random_key = rsa_pub.public_encrypt(random_key, M2Crypto.RSA.pkcs1_padding)
 print(encrypted_random_key)
-cipher = M2Crypto.EVP.Cipher(alg='rc4', key=random_key, iv=b'', op=M2Crypto.encrypt)
+# cipher = M2Crypto.EVP.Cipher(alg='rc4', key=random_key, iv=b'', op=M2Crypto.encrypt)
+cipher = M2Crypto.EVP.Cipher(alg='aes_128_cbc', key=random_key, iv=b'', op=M2Crypto.encrypt)
 encrypted_message = cipher.update(message)
 encrypted_message += cipher.final()
 print(encrypted_message)
@@ -149,6 +153,7 @@ print(encrypted_message)
 
 //code python
 # PyCrypto version
+# Update: PyCrypto 2.x is unmaintained, obsolete, and contains security vulnerabilities!!!
 # pip install pycrypto
 
 # Please bear in mind that PyCrypto cannot handle x509 certificates.
